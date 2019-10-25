@@ -1,0 +1,28 @@
+body {
+    background-color: aquamarine;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+
+}
+
+.parkContainer {
+    background-color: beige;
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+}
+
+.visited {
+    border: 3px red dashed;
+}
+
+.notVisited {
+    border: 3px green solid
+}
